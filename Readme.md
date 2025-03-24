@@ -1,10 +1,10 @@
 ﻿# **CNN-Based Autoencoder for SVHN Dataset**
 
-**📌 Project Overview**
+# **📌 Project Overview**
 
 This project implements a **Convolutional Neural Network (CNN)-based Autoencoder** using **PyTorch**, trained on the **Street View House Numbers (SVHN) dataset** for image reconstruction. The key focus is on weight-clipping regularization and sparsity constraints to analyze their effects on reconstruction performance.
 
-**🎯 Objectives**
+# **🎯 Objectives**
 
 - Train an **autoencoder** for image reconstruction using **Mean Squared Error (MSE) loss**.
 - Implement a **weight-clipping constraint** to restrict all weights to the range **[-0.5, 0.5]**.
@@ -13,13 +13,13 @@ This project implements a **Convolutional Neural Network (CNN)-based Autoencoder
 - Perform **hyperparameter tuning** by experimenting with different **activation functions** and **optimizers**.
 - Train the models for **at least 100 epochs** or until the loss curve stabilizes.
 
-**📂 Dataset**
+# **📂 Dataset**
 
 We use the **SVHN dataset**, a real-world digit dataset obtained from house numbers in Google Street View images.
 
 - Download the dataset: SVHN Dataset (torchvision)
 
-**🛠️ Implementation**
+# **🛠️ Implementation**
 
 **Model Architecture**
 
@@ -39,7 +39,7 @@ Each autoencoder consists of:
 - **PSNR (Peak Signal-to-Noise Ratio)** is used to measure the quality of reconstructed images.
 - The higher the PSNR, the better the reconstruction.
 
-**🚀 Training Strategy**
+# **🚀 Training Strategy**
 
 1. Load the **SVHN dataset** and preprocess images.
 1. Train two CNN-based autoencoders:
@@ -49,7 +49,7 @@ Each autoencoder consists of:
 1. Experiment with different **activation functions** and **optimizers** for hyperparameter tuning.
 1. Compare the models based on reconstruction quality.
 
-**🔧 Hyperparameter Tuning**
+# **🔧 Hyperparameter Tuning**
 
 We experiment with:
 
@@ -57,7 +57,7 @@ We experiment with:
 - **Optimizers**: Adam, RMSprop, SGD.
 - Learning rate adjustments for optimal convergence.
 
-**📈 Results & Comparison**
+# **📈 Results & Comparison**
 
 - The models are evaluated based on **loss curves and PSNR scores**.
 - Plots are generated to visualize the reconstruction quality.
