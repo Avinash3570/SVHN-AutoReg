@@ -62,4 +62,8 @@ We experiment with:
 - The models are evaluated based on **loss curves and PSNR scores**.
 - Plots are generated to visualize the reconstruction quality.
 - A comparison is made to determine the **most effective regularization strategy**.
+- 
+![3](https://github.com/user-attachments/assets/08d380d4-0738-4112-b904-9f7de5eb5bd2)
+![2](https://github.com/user-attachments/assets/a0b3be40-4d8d-4a99-89f3-81eaa825b366)
+![1](https://github.com/user-attachments/assets/b9431572-9995-4e48-b1b8-d20aab74e7cc)
 
